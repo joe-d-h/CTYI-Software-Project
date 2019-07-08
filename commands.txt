@@ -1,0 +1,3 @@
+git push
+git commit -a
+git add "filename"
