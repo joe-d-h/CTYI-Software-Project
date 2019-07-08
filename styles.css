@@ -1,0 +1,32 @@
+body {
+    background-color: #86f27e;
+    font-family: "Arial";
+
+}
+header {
+    text-align: center;
+    color: black;
+    background-color: #34962d;
+    padding: 30px;
+}
+
+.link {
+    float: left;
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.welcome {
+    float: right;
+    height: 200px;
+    width: 80%;
+    text-align: center;
+}
+
+
