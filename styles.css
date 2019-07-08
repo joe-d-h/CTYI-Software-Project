@@ -20,6 +20,7 @@ header {
 
 .text {
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .welcome {
@@ -29,4 +30,8 @@ header {
     text-align: center;
 }
 
+div {
+    text-decoration: none;
+
+}
 
