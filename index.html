@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<title>FUNNY</title>
+
 
 
 <head>
@@ -62,6 +64,40 @@
                 </p>
             </article>
         </div>
+    <audio id="audio" controls style="display:none">
+        <source src="BruhSoundEffect2.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+
+    <audio id="boogie" controls style="display: none">
+        <source src="fortnite.mp3" type="audio/mpeg">
+    </audio>
+
+<script>
+    window.alert("funny page ahead, be warned");
+</script>
+    <script type="text/javascript">
+        document.addEventListener('keydown', function(e) {
+            if (e.keyCode == 70) {
+                document.getElementById('audio').play();
+            }
+        });
+
+    </script>
+                <script type="text/javascript">
+
+                   var boogie = new Audio("fortnite.mp3");
+                   boogie.oncanplaythrough = function(){
+                       boogie.play();
+                   }
+
+                   boogie.loop = true;
+
+                   boogie.onended = function(){
+                       boogie.play();
+                   }
+
+                </script>
+                <input type="image" src="awesome.jpg" onclick="boogie.play()" width="20" height="20" alt="awe">
 </body>
 
 </html>
