@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: black;
+            background-color: coral;
         }
         * {box-sizing: border-box;
         }
@@ -55,6 +55,7 @@
             background-color: #0cd9e9;
             width: 75%;
             float: left;
+            font-size: medium;
         }
 
         .dropdown-content a:hover {background-color: #f1f1f1}
@@ -91,7 +92,8 @@
 </div>
             <div class="box" >
 
-                hey whats up
+                hey whats up this is the meme section of the page. *warning
+                <br>you are probably going to laugh*
 
 
             </div>
@@ -100,7 +102,7 @@
 
 
     </p>
-</body>
+
 <script>
 
     document.getElementById("myBtn").onclick = function() {myFunction()};
@@ -125,4 +127,32 @@
     }
 
 </script>
+
+                <script>
+                function picture() {
+                    var pic = "hedgehog.jpg";
+                    document.getElementById("pic2").src=pic.replace("90x90","225x225");
+
+                }
+
+
+                 </script>
+        <img id="pic2" src="pic2">
+        <button onclick="picture()">Pic number 1</button>
+        <p>
+            This first one is a nice one to start off with and gave me a good chuckle
+        </p>
+
+<script>
+    function picture2() {
+        var pic2 = "minion.jpg";
+        document.getElementById("pic3").src = pic2.replace("90x90", "225x225");
+    }
+</script>
+    <img id="pic3" src="pic3">
+    <button onclick="picture2()">Pic number 2</button>
+    <p>
+        This one is just not funny what kind of sick mind would create this
+    </p>
+</body>
 </html>
