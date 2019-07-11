@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
 
@@ -57,14 +57,35 @@
         }
 
 
+
+        .fx {
+            width:50vmin;
+            height:35vmin;
+            animation:f 3s infinite;
+        }
+
+
         .dropdown-content a:hover {background-color: #f1f1f1}
 
         .show {display:block;}
+
+        @keyframes f {
+
+                from {
+                    clip-path: polygon(100% 0,100% 0,100% 0,100% 0,
+                    0 100%,0 100%,0 100%,0 100%);
+
+                }
+                10%, to {
+                    clip-path: polygon(0 50%,0 0,100% 0,100% 50%,
+                    0 50%,0 100%,100% 100%,100% 50%);
+                }
+        }
     </style>
 </head>
 
 
-            <body>
+            <>
             <h1>Gamer clips</h1>
 
     <header>
@@ -81,11 +102,9 @@
                     <a href="#">gaming</a>
                 </div>
             </div>
-
-
-             <video width="320" height="240" class="center" controls>
-                 <source src="https://gameclipscontent-d3025.xboxlive.com/xuid-2533275016527596-private/bed5ddac-adc6-4c7a-bf34-d9c1f8bd6e1b.MP4?sv=2015-12-11&sr=b&si=DefaultAccess&sig=tz4WtpfE7t5pG4izXeH%2B9Wk7L4AHfVN9PKu9gDcNAVM%3D&__gda__=1562697639_370400fb3ece5fe40f8e5528abd42f9d" type="video/mp4">
-             </video>
+    <div align="middle">
+            <iframe width="642" height="361" style="float: none" src="https://www.youtube.com/embed/BGOy7tCQOhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
             <div class="words">
 
@@ -124,8 +143,15 @@
             </script>
 
 
-            </p>
+<div class="fx"><img class="fx" src="minion.jpg"></div>
 
 
-            </body>
+
+
+
+
+
+
+
+
 </html>
